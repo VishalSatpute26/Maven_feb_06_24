@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [All Test Suite]" guice-stage="DEVELOPMENT">
+  <listeners>
+    <listener class-name="failedTestScriptExecution.AutomaticallyRerun"/>
+  </listeners>
+  <test thread-count="5" name="C:/Users/HP-PC/IdeaProjects/Maven_feb_06_24(failed)">
+    <classes>
+      <class name="PriorityEx.demopriority">
+        <methods>
+          <include name="priorityExample_A"/>
+          <include name="priorityExample_G"/>
+        </methods>
+      </class> <!-- PriorityEx.demopriority -->
+    </classes>
+  </test> <!-- C:/Users/HP-PC/IdeaProjects/Maven_feb_06_24(failed) -->
+</suite> <!-- Failed suite [All Test Suite] -->
