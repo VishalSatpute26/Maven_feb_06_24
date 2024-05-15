@@ -22,7 +22,7 @@ public class SoftAssertionExample
         WebElement usernametextbox=driver.findElement(By.name("email"));
         softAssert.assertEquals(title, "Facebook – log in or sign up","Facebook – log in or sign up titile should be match");
         softAssert.assertTrue(usernametextbox.isDisplayed(),"user name text box should be display");
-		System.out.println(bye-bye);
+		System.out.println("bye-bye");
         softAssert.assertAll();
         driver.close();
     }
