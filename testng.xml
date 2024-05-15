@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <listeners>
+        <listener class-name="failedTestScriptExecution.AutomaticallyRerun"></listener>
+    </listeners>
+    <!--<groups>
+        <run>
+            <include name="smoke"/>
+            <include name="snity"/>
+        </run>
+    </groups>
+    <parameter name="courseName" value="Java"></parameter>
+    <parameter name="CityName" value="Pune"></parameter>-->
+    <test verbose="10" preserve-order="true" parallel="false" thread-count="2" name="C:/Users/HP-PC/IdeaProjects/Maven_feb_06_24">
+        <classes>
+           <class name="DataproviderIntestNG.DataProviderWithExcel"/>
+            <!--<class name="AssertionInTestNG.HardAssertionExample"/>
+           <class name="ParameterisationInTestNG.ParameterizationExample"/>
+           <class name="AssertionInTestNG.SoftAssertionExample"/>
+           <class name="MavenDemo.TestNGExample"/>
+            <class name="PriorityEx.demopriority"/>
+            <class name="TestNGAnnotation.BeforeAfterScenario"/>
+            <class name="TestNGAnnotation.BeforeAfterAnnotationExample"/>
+            <class name="TestNGAnnotation.BeforeAfterClassExample"/>
+            <class name="TestNGAnnotation.DependsOnGroupExample"/>
+            <class name="TestNGAnnotation.DependsOnMethodExample"/>
+            <class name="TestNGAnnotation.AlwaysRunExample">
+                <methods>
+                    <include name="verifyLogin"/>
+                    <include name="verifyHomePage"/>
+                </methods>
+            </class>-->
+            <!--   <class name="AnnotationAttribution.InvocationExample">
+                <methods>
+                    <include name="invocationCountDemo"/>
+                </methods>
+            </class>-->
+            <!--          <class name="AnnotationAttribution.invocationTimeoutExample">
+                          <methods>
+                              <include name="invocationCountDemo"/>
+                          </methods>
+                      </class>-->
+        </classes>
+    </test>
+</suite>
