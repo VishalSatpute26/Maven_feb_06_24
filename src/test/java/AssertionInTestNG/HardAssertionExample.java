@@ -20,6 +20,8 @@ public class HardAssertionExample
         WebElement usernametextbox=driver.findElement(By.name("email"));
         Assert.assertEquals(title, "Facebook – log in or sign up","Facebook – log in or sign up titile should be match");
         Assert.assertTrue(usernametextbox.isDisplayed(),"user name text box should be display");
-        
+        System.out.println("Hello Everyone ");
+        driver.close();
+
     }
 }
